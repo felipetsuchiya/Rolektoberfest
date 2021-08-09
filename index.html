@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Aritoberfest - 2021</title>
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="container-header">
+        <p>Aritoberfest - 2021</p>
+      </div>
+      <div class="container-form">
+        <label for="name">Insira o nome do participante:</label>
+        <input type="text" id="nomeParticipante" class="input-text" required />
+        <button class="input-button" type="submit" onclick="createList()">Adicionar</button>
+      </div>
+      <div class="container-header-lista">
+        <ul class="lista">
+          <li>Nome</li>
+          <li>Pontuação</li>
+          <li>Remover</li>
+        </ul>
+      </div>
+      <div id="lista-participantes"></div>
+      <footer>
+        <h2>&copy; Copyright Felipe Tsuchiya - 2021</h2>
+      </footer>
+    </div>
+    <script src="aritoberfest.js"></script>
+  </body>
+</html>

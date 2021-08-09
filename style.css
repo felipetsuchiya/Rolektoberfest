@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Aritoberfest";
+  src: url(fonts/OldLondon.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #fffdd0;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+}
+.container-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 1000%;
+  font-family: "Aritoberfest";
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+}
+.container-form label,
+input {
+  font-family: "Aritoberfest";
+  font-size: 200%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.input-button {
+  font-family: "Aritoberfest";
+  font-size: 200%;
+  background-color: #fff0f0;
+  padding: 20px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10%;
+  border-bottom: 1px solid #000000;
+}
+.lista li {
+  width: 20%;
+  text-align: center;
+  font-family: "Aritoberfest";
+  font-size: 300%;
+  margin: 10px auto;
+}
+
+.btn {
+  margin: 0 10px;
+  font-family: "Aritoberfest";
+  font-size: 100%;
+  background-color: #fff0f0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-header {
+      width: 100%;
+    font-size: 400%;
+    font-family: "Aritoberfest";
+  }
+  .lista li {
+    width: 100%;
+    width: 20%;
+    text-align: center;
+    font-family: "Aritoberfest";
+    font-size: 200%;
+    margin: 10px auto;
+  }
+}
