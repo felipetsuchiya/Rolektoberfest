@@ -41,7 +41,7 @@ input {
 .lista {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 10%;
+  margin: 0 5%;
   border-bottom: 1px solid #000000;
 }
 .lista li {
@@ -67,18 +67,196 @@ footer {
   margin-top: 10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1240px) {
   .container-header {
-      width: 100%;
-    font-size: 400%;
+    width: 100%;
+    font-size: 5em;
     font-family: "Aritoberfest";
+  }
+  .container-form label {
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+  }
+
+  .container-form input {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+  .input-button {
+    font-family: "Aritoberfest";
+    font-size: 100%;
+    background-color: #fff0f0;
+    padding: 1%;
   }
   .lista li {
     width: 100%;
-    width: 20%;
     text-align: center;
     font-family: "Aritoberfest";
-    font-size: 200%;
-    margin: 10px auto;
+    font-size: 1.1em;
+  }
+ 
+  .btn {
+    margin: 0 1.2em;
+    font-family: "Aritoberfest";
+    font-size: 0.8em;
+    background-color: #fff0f0;
+    padding: 1em;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container-header {
+    font-size: 4em;
+    font-family: "Aritoberfest";
+  }
+  .container-form label {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  .container-form input {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .input-button {
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+    background-color: #fff0f0;
+    padding: 0.1em;
+  }
+  .lista li {
+    width: 100%;
+    text-align: center;
+    font-family: "Aritoberfest";
+    font-size: 1.4em;
+  }
+ 
+  .btn {
+    margin: 0 1.2em;
+    font-family: "Aritoberfest";
+    font-size: 0.6em;
+    background-color: #fff0f0;
+    padding: 1em;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container-header {
+    font-size: 3.5em;
+    font-family: "Aritoberfest";
+  }
+  .container-form label {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  .container-form input {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .input-button {
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+    background-color: #fff0f0;
+    padding: 0.1em;
+  }
+  .lista li {
+    width: 100%;
+    text-align: center;
+    font-family: "Aritoberfest";
+    font-size: 1.1em;
+  }
+ 
+  .btn {
+    margin: 0 1.2em;
+    font-family: "Aritoberfest";
+    background-color: #fff0f0;
+    padding: 0.4rem;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container-header {
+    font-size: 2em;
+    font-family: "Aritoberfest";
+  }
+
+  .container-form label {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .container-form input {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .input-button {
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+    background-color: #fff0f0;
+    padding: 0.1em;
+  }
+  .lista {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .lista li {
+    width: 100%;
+    text-align: center;
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+  }
+ 
+  .btn {
+    margin: 0 1.2em;
+    font-family: "Aritoberfest";
+    background-color: #fff0f0;
+    padding: 1em;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container-header {
+    font-size: 2em;
+    font-family: "Aritoberfest";
+  }
+  .container-form label {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .container-form input {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .input-button {
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+    background-color: #fff0f0;
+    padding: 0.1em;
+  }
+  .lista {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .lista li {
+    width: 100%;
+    text-align: center;
+    font-family: "Aritoberfest";
+    font-size: 1.5em;
+  }
+ 
+  .btn {
+    margin: 0 1.2em;
+    font-family: "Aritoberfest";
+    font-size: 0.8em;
+    background-color: #fff0f0;
+    padding: 1em;
+    cursor: pointer;
   }
 }
