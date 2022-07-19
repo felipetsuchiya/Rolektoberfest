@@ -2,6 +2,6 @@
 
 Have fun playing
 
-https://felipetsuchiya.github.io/rolektoberfest/
+https://felipetsuchiya.github.io/Rolektoberfest/
 
 Se beber, Não dirija
